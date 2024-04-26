@@ -1004,6 +1004,11 @@ span{
   font-weight: bold;
 }
 
+.contact__button:hover,
+.contact__button:focus{
+  color: #333;
+}
+
 /* FOOTER */
 .paragraph_footer{
   text-align: center;
