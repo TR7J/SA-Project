@@ -839,6 +839,53 @@ main{
   margin: 0.5rem;
 }
 
+/* MEDIA QUERIES */
+
+/* SMALL */
+@media screen and (min-width: 576px) {
+  main {
+    justify-content: center;
+    flex-flow: column nowrap;
+    padding: 1rem;
+  }
+
+  .card {
+    width: min(100%, 350px);
+  }
+
+  .paragraph{
+    text-align: left;
+  }
+}
+
+/* MEDIUM */
+@media screen and (min-width: 768px) {
+  .card {
+    width: min(100%, 400px);
+  }
+  
+  .card figure{
+    flex-flow: column-reverse;
+  }
+}
+
+/* LARGE */
+@media screen and (min-width: 992px) {
+  .card {
+    width: min(100%, 400px);
+  }
+  .nav_miniprojects{
+    min-width: 700px;
+  }
+}
+
+/* XL */
+@media screen and (min-width: 1200px) {
+  .card {
+    width: min(100%, 500px);
+  }
+}
+
 /* ABOUTME */
 .main_aboutme{
   text-align: center;
