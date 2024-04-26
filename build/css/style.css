@@ -957,3 +957,31 @@ span{
   font-weight: bold;
 }
 
+/* FOOTER */
+.paragraph_footer{
+  text-align: center;
+}
+
+aside{
+  max-width: 800px;
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.links a{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.links a:hover,
+.links a:focus{
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
