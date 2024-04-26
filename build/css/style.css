@@ -839,3 +839,38 @@ main{
   margin: 0.5rem;
 }
 
+/* ABOUTME */
+.main_aboutme{
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.paragraph{
+  max-width: 850px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 1rem;
+}
+
+.aboutme{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3{
+  color: #333;
+  font-weight: 600;
+}
+
+.align{
+  margin-left: 16px;
+  padding: auto;
+}
+
+
+
+
