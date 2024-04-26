@@ -859,6 +859,7 @@ main{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 800px;
 }
 
 h3{
@@ -871,6 +872,66 @@ h3{
   padding: auto;
 }
 
+/* MINIPROJECTS */
+.main_miniprojects{
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.nav_miniprojects{
+  border: 2px solid #333;
+  border-radius: 2rem;
+  /* margin: 0 auto 1rem; */
+  line-height: 7rem;
+  font-size: 2rem;
+  min-width: 300px;
+}
+
+.ul_miniprojects{
+  list-style-type: none;
+}
+
+.h2_miniprojects{
+  padding: 1rem;
+  background-color: rgb(0, 83, 128);
+  border-radius: 2rem 2rem 0 0;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.li_miniprojects{
+  border-top: 1px solid #333;
+  text-align: center;
+}
+
+.li_miniprojects a{
+  display: block;
+}
+.li_miniprojects a,
+.li_miniprojects a:visited {
+  text-decoration: none;
+  color: #333;
+}
+
+.li_miniprojects a:hover,
+.li_miniprojects a:focus{
+  background: #333;
+  color: whitesmoke;
+}
+
+.li_miniprojects:last-child a{
+  border-radius: 0 0 2rem 2rem;
+}
+
+span{
+  white-space: nowrap;
+  background-color: rgb(0, 83, 128);
+  color: whitesmoke;
+  border-radius: 5px;
+}
 
 
 
